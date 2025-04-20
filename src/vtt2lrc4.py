@@ -142,6 +142,7 @@ if __name__ == "__main__":
     #     sys.exit(1)
 
     # folder_path = sys.argv[1]
+    # 在""内填入地址
     folder_path = r""
 
     print(f"[调试] 目标路径：{repr(folder_path)}")
