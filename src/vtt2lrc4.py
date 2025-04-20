@@ -145,8 +145,8 @@ if __name__ == "__main__":
     # 在""内填入地址
     folder_path = r""
 
-    print(f"[调试] 目标路径：{repr(folder_path)}")
-    print(f"[调试] 路径是否存在：{os.path.exists(folder_path)}")
+    # print(f"[调试] 目标路径：{repr(folder_path)}")
+    # print(f"[调试] 路径是否存在：{os.path.exists(folder_path)}")
 
     if not os.path.isdir(folder_path):
         print(f"路径 '{folder_path}' 无效或不是文件夹。")
@@ -164,8 +164,14 @@ if __name__ == "__main__":
         sys.exit(0)
 
     for vtt_file in vtt_files:
-        # 在原目录生成.lrc文件
-        output_file = os.path.splitext(vtt_file)[0] + ".lrc"
+        # 生成输出文件名：如果文件名形如 "xxx.mp3.vtt" 或 "xxx.wav.vtt" 则输出 "xxx.lrc"
+        base_name = os.path.splitext(vtt_file)[0]  # 去除最后一个扩展名 ".vtt"
+        base2, ext2 = os.path.splitext(base_name)
+        if ext2.lower() in [".mp3", ".wav"]:
+            output_file = base2 + ".lrc"
+        else:
+            output_file = base_name + ".lrc"
+
         if convert_vtt_to_lrc(vtt_file, output_file):
             print(f"成功转换: {vtt_file} -> {output_file}")
         else:
