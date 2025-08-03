@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d100364-86ee-496e-91dc-e0fddf58b5fe" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vtt2lrc5.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vtt2lrc4.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/vtt2lrc4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,22 +36,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.vtt2lrc3.executor": "Debug",
-    "Python.vtt2lrc4.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/Mat/github/vtt2lrc",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.vtt2lrc3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.vtt2lrc4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.vtt2lrc5.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Mat/github/vtt2lrc/src&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Mat\github\vtt2lrc\src" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -71,6 +76,26 @@
       <updated>1743246259203</updated>
       <workItem from="1743246260275" duration="220000" />
       <workItem from="1743929183949" duration="218000" />
+      <workItem from="1745463174262" duration="165000" />
+      <workItem from="1745846081193" duration="98000" />
+      <workItem from="1746024280864" duration="14000" />
+      <workItem from="1746185768869" duration="25000" />
+      <workItem from="1746268214181" duration="69000" />
+      <workItem from="1746535429653" duration="1000" />
+      <workItem from="1746554691262" duration="127000" />
+      <workItem from="1746783945093" duration="9000" />
+      <workItem from="1746990854291" duration="28000" />
+      <workItem from="1747037196677" duration="5000" />
+      <workItem from="1749916273539" duration="29000" />
+      <workItem from="1750349025556" duration="15000" />
+      <workItem from="1751771597810" duration="706000" />
+      <workItem from="1751786709461" duration="22000" />
+      <workItem from="1752463298296" duration="16000" />
+      <workItem from="1753461856210" duration="53000" />
+      <workItem from="1753592667576" duration="244000" />
+      <workItem from="1753598383666" duration="15000" />
+      <workItem from="1753933372347" duration="21000" />
+      <workItem from="1754151284417" duration="65000" />
     </task>
     <servers />
   </component>
@@ -78,7 +103,8 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/vtt2lrc$vtt2lrc4.coverage" NAME="vtt2lrc4 覆盖结果" MODIFIED="1745164268873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/vtt2lrc$vtt2lrc3.coverage" NAME="vtt2lrc3 覆盖结果" MODIFIED="1745163152711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/vtt2lrc$vtt2lrc4.coverage" NAME="vtt2lrc4 覆盖结果" MODIFIED="1751771761970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/vtt2lrc$vtt2lrc5.coverage" NAME="vtt2lrc5 覆盖结果" MODIFIED="1754151341762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/vtt2lrc$vtt2lrc3.coverage" NAME="vtt2lrc3 覆盖结果" MODIFIED="1745846109785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
 </project>
